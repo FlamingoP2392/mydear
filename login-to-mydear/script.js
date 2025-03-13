@@ -11,7 +11,7 @@ const closeLove = document.getElementById("closeLove");
 loginForm.addEventListener("submit", function(event) {
     if (usernameInput.value.trim() === "" || passwordInput.value.trim() === "") {
         alert("กรอกข้อมูลให้ครบก่อน!");
-        statusImage.src = "./img/pan.jpg";
+        statusImage.src = "./img/shoos.jpg";
         event.preventDefault();
         return;
     }
